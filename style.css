@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -44,7 +45,7 @@ body {
 .event-block {
     display: none;
     opacity: 0%;
-    width: 500px;
+    width: 600px;
     text-align: center;
     margin: 300px auto;
     padding: 30px;
@@ -131,4 +132,73 @@ body {
 
 .denied:hover {
     background-color: #ff7c7c;
+}
+
+.congrats {
+    display: block;
+    font-size: 36px;
+}
+
+@media (min-width: 240px) and (max-width: 1000px){
+    * {
+        overflow: hidden;
+    }
+
+    .start {
+        margin-top: 250px;
+    }
+
+    .event {
+        width: 100%;
+        height: 100px;
+    }
+
+    .congrats {
+        display: block;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .restart {
+        margin-top: 100px;
+    }
+
+    .event-block {
+        overflow: hidden;
+        margin-top: 35%;
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1200px){
+    * {
+        overflow: hidden;
+    }
+
+    .start {
+        margin-top: 50%;
+    }
+
+    .event {
+        width: 100%;
+        height: 100px;
+    }
+
+    .congrats {
+        display: block;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .restart {
+        margin-top: 100px;
+    }
+
+    .event-block {
+        overflow: hidden;
+        margin-top: 35%;
+        width: 500px;
+        height: 300px;
+    }
 }

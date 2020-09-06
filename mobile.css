@@ -1,0 +1,9 @@
+@media (min-width: 320px) and (max-width: 720px){
+    .btn {
+        display: none;
+    }
+
+    .event-block {
+        width: 300px;
+    }
+}

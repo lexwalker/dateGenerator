@@ -11,7 +11,7 @@ let dataArray = [
 
 localStorage.setItem('coreData', JSON.stringify(coreData))
 
-    if (localStorage.getItem('dataArray') == 'null') {
+    if (localStorage.getItem('dataArray') == 'null' || localStorage.getItem('dataArray') == null) {
         localStorage.setItem('dataArray', localStorage.getItem('coreData'))
     }
     dataArray = JSON.parse(localStorage.getItem('dataArray'))
